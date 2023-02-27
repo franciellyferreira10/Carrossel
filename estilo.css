@@ -1,0 +1,133 @@
+body {
+
+    margin: 0;
+    background-image: url(https://observatoriodatv.uol.com.br/wp-content/uploads/2018/08/carrossel-hd.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+
+.container {
+
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 900px;
+
+    
+}
+
+.carrossel {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 15s infinite forwards linear;
+
+
+
+}
+
+.imagem {
+
+    position: absolute;
+    width: 290px;
+    height: 187px;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+
+}
+
+.imagem span {
+
+    margin: auto;
+    font-size: 1em;
+
+}
+
+@keyframes rotate360 {
+    
+    from {
+
+        transform: rotateY(0deg);
+
+    }
+
+    to {
+
+        transform: rotateY(-360deg);
+
+    }
+
+
+}
+
+.imagem:nth-child(1) {
+
+    background-image: url(https://resumo-das-novelas.com/wp-content/uploads/personagens/carrossel/perfil/valeria.jpg);
+    transform: rotateY(0deg) translateZ(430PX);
+
+}
+
+.imagem:nth-child(2) {
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPAW1MSXN-rNodn7KUXa-OyBqEAWuFkVQ6w&usqp=CAU);
+    transform: rotateY(40deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(3) {
+
+    background-image: url(https://resumonovelasbr.com.br/wp-content/uploads/2015/01/maria-joaquina-carrossel-176x300.jpg);
+    transform: rotateY(80deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(4) {
+
+    background-image: url(https://i0.wp.com/amonovelas.com.br/wp-content/uploads/2015/02/adriano-carrossel.jpg);
+    transform: rotateY(120deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(5) {
+
+    background-image: url(https://i.uai.com.br/GOHR84-9z6D3M17fFxfZyjBfwy0=/1200x1200/smart/imgsapp2.uai.com.br/app/noticia_133890394703/2022/09/07/300018/mario-ayala-gustavo-daneluz-em-carrossel_1_31440.jpg);
+    transform: rotateY(160deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(6) {
+
+    background-image: url(https://i.pinimg.com/236x/b7/be/37/b7be372c86fb3e0c05c903a590cb97cc--santos-beautiful-pictures.jpg);
+    transform: rotateY(200deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(7) {
+
+    background-image: url(https://resumo-das-novelas.com/wp-content/uploads/personagens/carrossel/perfil/helena.jpg);
+    transform: rotateY(240deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(8) {
+
+    background-image: url(https://stcotvfoco.com.br/2021/12/carrossel.jpg);
+    transform: rotateY(280deg) translateZ(430px);
+
+}
+
+.imagem:nth-child(9) {
+
+    background-image: url(https://resumo-das-novelas.com/wp-content/uploads/personagens/carrossel/perfil/laura.jpg);
+    transform: rotateY(320deg) translateZ(430px);
+
+}
